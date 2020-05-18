@@ -13,18 +13,29 @@ import LogoWhite from '../../assets/logoWhite.png'
 
 import ProfessionalBG from '../../assets/ProfessionalBG.svg'
 import Professional1 from '../../assets/Professional1.svg'
+function student() {
 
+   
+    window.location.href="https://maverick.codeasylums.com/";
+    }
+    function prof() {
+
+   
+        window.location.href="https://ace.codeasylums.com/";
+        }
 const Main = () => {
+   
     return(
+        
         <div className="landing-container">
             <div className="glass"></div>
             <div className="landing-left">
                 <div className="landing-left-text">
-                    <p>Student</p>
+                    <p>Student?</p>
                     <p>Are you a student</p>
-                    <p>wishing to learn new stuff?</p>
+                    <p>wishing to learn new stuff? <br></br> Crack the Coding Interview?</p>
                     <p>Give us and yourself some time and secure your dream job</p>
-                    <button className="landing-left-button">Explore</button>
+                    <button className="landing-left-button" onClick={student}>Explore</button>
                 </div>
                 <img className="Main" src={Hacker} />
                 <img className="Decor" src={HackerPC} alt="Decor" />
@@ -44,9 +55,10 @@ const Main = () => {
                 <div className="landing-right-text">
                     <p>Professional?</p>
                     <p>Are you a working professional</p>
-                    <p>and want to improve your skills?</p>
+                    <p>and want to improve your skills? <br></br> Crack the Coding Interview?</p>
+                   
                     <p>Jumpstart with professional courses from CodeAsylums online Bootcamp</p>
-                    <button className="landing-right-button">Request Callback</button>
+                    <button className="landing-right-button" onClick={prof}>Explore</button>
                 </div>
                 <img className="Decor" src={ProfessionalBG} alt="Decor" />
                 <img className="Main" src={Professional1} alt="Main" />
@@ -55,7 +67,9 @@ const Main = () => {
                 {/* <img className="Ansible" src={Ansible} alt="Decor" />
                 <img className="Circle4" src={Circle} alt="Decor" /> */}
             </div>
+            
     </div>
+    
     )
 }
 
