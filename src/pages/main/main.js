@@ -33,9 +33,9 @@ const Main = () => {
                 <div className="landing-left-text">
                     <p>Student?</p>
                     <p>Are you a student</p>
-                    <p>wishing to learn new stuff? <br></br> Crack the Coding Interview?</p>
+                    <p>wish to learn new stuff? <br></br> Crack the Coding Interview?</p>
                     <p>Give us and yourself some time and secure your dream job</p>
-                    <button className="landing-left-button" onClick={student}>Explore</button>
+                    <button className="landing-left-button" onClick={student}>Let’s play & code</button>
                 </div>
                 <img className="Main" src={Hacker} />
                 <img className="Decor" src={HackerPC} alt="Decor" />
@@ -58,7 +58,7 @@ const Main = () => {
                     <p>and want to improve your skills? <br></br> Crack the Coding Interview?</p>
                    
                     <p>Jumpstart with professional courses from CodeAsylums online Bootcamp</p>
-                    <button className="landing-right-button" onClick={prof}>Explore</button>
+                    <button className="landing-right-button" onClick={prof}>Let’s plan a career transformation</button>
                 </div>
                 <img className="Decor" src={ProfessionalBG} alt="Decor" />
                 <img className="Main" src={Professional1} alt="Main" />

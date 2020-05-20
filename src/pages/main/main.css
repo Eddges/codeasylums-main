@@ -51,6 +51,7 @@
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   position: absolute;
+  text-align: right;
 }
 
 .landing-container .landing-left .landing-left-text :nth-child(1) {
@@ -356,7 +357,7 @@
   background-color: #005de9;
   color: white;
   font-weight: bold;
-  width: 240px;
+  width: 260px;
   height: 40px;
   font-family: 'Open Sans';
   border-radius: 5px;
