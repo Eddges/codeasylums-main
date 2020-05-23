@@ -603,22 +603,33 @@
             }
         }
         .main-bottom-text{
-            // margin-top : 82vh;
-            display : none;
-            
+            opacity: 0;
+            margin-top: 81vh ;
         }
-        .main-bottom-text-shifted{
-            // display : none;
-            // margin-top: 80vh;
+        .main-bottom-text-shifted-left{
+            margin-top: 82vh;
+            opacity: 1;
         }
         .main-bottom-text-right{
-            display : none;
+            opacity : 0;
+            text-align: center;
+            margin-top: 90vh;
+            padding : 0px 30px;
+        }
+        .main-bottom-text-right-shifted{
+            opacity : 1;
         }
     }
 }
 
 @media(max-width : 800px) and (max-height : 720px) {
     .landing-container{
+        .main-bottom-text{
+            display : none;
+        }
+        .main-bottom-text-right{
+            display : none;
+        }
         flex-direction: column;
         height : auto;
         .landing-left{
