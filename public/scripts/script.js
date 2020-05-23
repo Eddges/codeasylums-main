@@ -14,6 +14,7 @@ $(document).ready(function(){
         $('.landing-left .Table').toggleClass('Table-shifted')
         $('.landing-left .Logo').toggleClass('Logo-noshow')
         $('.landing-left .LogoWhite').toggleClass('LogoWhite-show')
+        $('.main-bottom-text').toggleClass('main-bottom-text-shifted-left')
     })
 
     $('.landing-right').hover(function(){
@@ -26,6 +27,8 @@ $(document).ready(function(){
         $('.Docker').toggleClass('Docker-shifted')
         $('.Ansible').toggleClass('Ansible-shifted')
         $(this).toggleClass('landing-right-shifted')
+        $('.main-bottom-text').toggleClass('main-bottom-text-shifted-right')
+        $('.main-bottom-text-right').toggleClass('main-bottom-text-right-shifted')
     })
 })
 

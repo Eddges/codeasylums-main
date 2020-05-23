@@ -12,6 +12,7 @@
   width: 100%;
   height: 100vh;
   font-family: 'Raleway';
+  overflow: hidden;
 }
 
 .landing-container .glass {
@@ -496,6 +497,43 @@
   background-color: #b5d4ff63;
 }
 
+.landing-container .main-bottom-text {
+  position: absolute;
+  top: 20px;
+  left: 15%;
+  font-size: 14px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+}
+
+.landing-container .main-bottom-text span {
+  color: green;
+  font-weight: bold;
+}
+
+.landing-container .main-bottom-text-shifted-left {
+  left: 13%;
+  color: white;
+}
+
+.landing-container .main-bottom-text-right {
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  -webkit-transition: all 1s;
+  transition: all 1s;
+  font-size: 14px;
+}
+
+.landing-container .main-bottom-text-right span {
+  color: #092086;
+  font-weight: bold;
+}
+
+.landing-container .main-bottom-text-right-shifted {
+  right: 10px;
+}
+
 @media (max-width: 800px) {
   .landing-container {
     -webkit-box-orient: vertical;
@@ -681,9 +719,15 @@
     margin-top: 52vh;
     margin-left: 40%;
   }
+  .landing-container .main-bottom-text {
+    display: none;
+  }
+  .landing-container .main-bottom-text-right {
+    display: none;
+  }
 }
 
-@media (max-width: 800px) and (max-height: 700px) {
+@media (max-width: 800px) and (max-height: 720px) {
   .landing-container {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
