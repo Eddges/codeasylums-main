@@ -15,6 +15,8 @@ $(document).ready(function(){
         $('.landing-left .Logo').toggleClass('Logo-noshow')
         $('.landing-left .LogoWhite').toggleClass('LogoWhite-show')
         $('.main-bottom-text').toggleClass('main-bottom-text-shifted-left')
+        $('.highImage').toggleClass('highImage-toggle')
+        $('.spinner').toggleClass('spinner-toggle')
     })
 
     $('.landing-right').hover(function(){
@@ -63,6 +65,9 @@ const nav = document.querySelector(".fix");
                 $('.topLogoWhite').addClass('topLogoWhite-show')
                 $('.main-bottom-text').addClass('main-bottom-text-shifted-left')
                 $('.topLogo').addClass('topLogo-shifted')
+                $('.highImage').addClass('highImage-toggle')
+                $('.spinner').addClass('spinner-toggle')
+                
             }
             else{
                 $(".landing-left-text").removeClass("landing-left-text-shifted")

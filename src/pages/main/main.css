@@ -106,6 +106,86 @@
   color: #2c036d;
 }
 
+.landing-container .landing-left .landing-left-text .event {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.landing-container .landing-left .landing-left-text .event .highImage {
+  width: 30%;
+  opacity: 1;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.landing-container .landing-left .landing-left-text .event .highImage-toggle {
+  opacity: 0;
+}
+
+.landing-container .landing-left .landing-left-text .event .spinner {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  background-color: #ff0008;
+  border-radius: 100%;
+  -webkit-animation: sk-scaleout 1.0s infinite ease-in-out;
+  animation: sk-scaleout 1.0s infinite ease-in-out;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.landing-container .landing-left .landing-left-text .event .spinner-toggle {
+  width: 100px;
+  height: 100px;
+  top: 20px;
+}
+
+@-webkit-keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@keyframes sk-scaleout {
+  0% {
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+.landing-container .landing-left .landing-left-text .event .eventText {
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-align: center;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
 .landing-container .landing-left .landing-left-text-shifted {
   padding: 100px 60px;
 }
@@ -353,6 +433,7 @@
 }
 
 .landing-container .landing-right .landing-right-text .landing-right-button {
+  font-size: 0.8rem;
   margin-top: 30px;
   border: none;
   background-color: #005de9;
@@ -634,6 +715,9 @@
     text-align: center;
     width: 100%;
   }
+  .landing-container .landing-left .landing-left-text .landing-left-button {
+    margin-top: 60px;
+  }
   .landing-container .landing-left .landing-left-text-shifted {
     padding: 30px 40px;
   }
@@ -747,6 +831,9 @@
     padding: 10px 0px;
     text-align: center;
     width: 100%;
+  }
+  .landing-container .landing-right .landing-right-text .landing-right-button {
+    margin-top: 60px;
   }
   .landing-container .landing-right .landing-right-text-shifted {
     padding: 100px 40px;
@@ -862,6 +949,9 @@
     text-align: center;
     width: 100%;
   }
+  .landing-container .landing-left .landing-left-text .landing-left-button {
+    margin-top: 50px;
+  }
   .landing-container .landing-left .landing-left-text-shifted {
     padding: 20px 40px;
   }
@@ -970,6 +1060,9 @@
     text-align: center;
     width: 100%;
   }
+  .landing-container .landing-right .landing-right-text .landing-right-button {
+    margin-top: 50px;
+  }
   .landing-container .landing-right .landing-right-text-shifted {
     padding: 100px 40px;
   }
@@ -1061,6 +1154,9 @@
     padding: 10px 0px;
     text-align: center;
     width: 100%;
+  }
+  .landing-container .landing-left .landing-left-text .landing-left-button {
+    margin-top: 30px;
   }
   .landing-container .landing-left .landing-left-text-shifted {
     padding: 20px 10px;
@@ -1173,6 +1269,11 @@
     text-align: center;
     width: 100%;
     font-size: 0.8rem;
+  }
+  .landing-container .landing-right .landing-right-text .landing-right-button {
+    margin-top: 30px;
+    font-size: 0.8rem;
+    width: 90%;
   }
   .landing-container .landing-right .landing-right-text-shifted {
     padding: 40px 00px;

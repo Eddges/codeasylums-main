@@ -10,6 +10,7 @@ import Html5 from '../../assets/html5.svg'
 import Github from '../../assets/github.png'
 import Logo from '../../assets/logo.png'
 import LogoWhite from '../../assets/logoWhite.png'
+import liveIcon from '../../assets/live.svg'
 
 import ProfessionalBG from '../../assets/ProfessionalBG.svg'
 import Professional1 from '../../assets/Professional1.svg'
@@ -38,11 +39,17 @@ const Main = () => {
             <div className="landing-left">
                 <div className="landing-left-text">
                     <p>Student?</p>
-                    <p>Are you a student</p>
-                    <p>have a knack for tech?<br></br>want to crack interviews?</p>
-                    <p>Give us and yourself some time and secure your dream job</p>
+                    <p>Maverick Coder</p>
+                    {/* <p>have a knack for tech?<br></br>want to crack interviews?</p>
+                    <p>Give us and yourself some time and secure your dream job</p> */}
                     <div className="intersection"></div>
                     <button className="landing-left-button" onClick={student}>Let’s play & code</button>
+                    
+                    <div className="event">
+                        <div className="spinner"></div>
+                        <img className="highImage" src={liveIcon} alt="Icon" />
+                        <p className="eventText">Asy~namite Hackathon</p>
+                    </div>
                     
                 </div>
                 <img className="Main" src={Hacker} />
@@ -62,9 +69,9 @@ const Main = () => {
                 </div>
                 <div className="landing-right-text">
                     <p>Professional?</p>
-                    <p>Are you a working professional</p>
-                    <p>Want to improve your skills? <br></br> Crack the Coding Interview?</p>
-                    <p>Jumpstart with professional courses from CodeAsylums online Bootcamp</p>
+                    <p>Ace Developer</p>
+                    {/* <p>Want to improve your skills? <br></br> Crack the Coding Interview?</p>
+                    <p>Jumpstart with professional courses from CodeAsylums online Bootcamp</p> */}
                     <button className="landing-right-button" onClick={prof}>Let’s plan a career transformation</button>
                     
                 </div>
