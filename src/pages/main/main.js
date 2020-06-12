@@ -10,6 +10,7 @@ import Html5 from '../../assets/html5.svg'
 import Github from '../../assets/github.png'
 import Logo from '../../assets/logo.png'
 import LogoWhite from '../../assets/logoWhite.png'
+import liveIcon from '../../assets/live.svg'
 
 import ProfessionalBG from '../../assets/ProfessionalBG.svg'
 import Professional1 from '../../assets/Professional1.svg'
@@ -28,7 +29,13 @@ const Main = () => {
     return(
         
         <div className="landing-container">
+            <div className="intersection"></div>
             <div className="glass"></div>
+            <div className="fix"></div>
+            <div className="topLogo">
+                <img className="topLogoBlack" src={Logo} alt="Logo" />
+                <img className="topLogoWhite" src={LogoWhite} alt="LogoWhite" />
+            </div>
             <div className="landing-left">
                 <div className="landing-left-text">
                     <p>Student?</p>
@@ -36,6 +43,13 @@ const Main = () => {
                     {/* <p>have a knack for tech?<br></br>want to crack interviews?</p>*/}
                      {/*<p>Give us and yourself some time and secure your dream job</p>*/}
                     <button className="landing-left-button" onClick={student}>Let’s play & code</button>
+                    
+                    <div className="event">
+                        <div className="spinner"></div>
+                        <img className="highImage" src={liveIcon} alt="Icon" />
+                        <p className="eventText">Asy~namite Hackathon</p>
+                    </div>
+                    
                 </div>
                 <img className="Main" src={Hacker} />
                 <img className="Decor" src={HackerPC} alt="Decor" />
@@ -59,9 +73,12 @@ const Main = () => {
                    
                    {/* <p>Jumpstart with professional courses from CodeAsylums online Bootcamp</p>*/}
                     <button className="landing-right-button" onClick={prof}>Let’s plan a career transformation</button>
+                    
                 </div>
+                <div className="intersectionRight"></div>
                 <img className="Decor" src={ProfessionalBG} alt="Decor" />
                 <img className="Main" src={Professional1} alt="Main" />
+                <div className="intersectionRight"></div>
                 
                 {/* <img className="Docker" src={Docker} alt="Decor" /> */}
                 {/* <img className="Ansible" src={Ansible} alt="Decor" />
