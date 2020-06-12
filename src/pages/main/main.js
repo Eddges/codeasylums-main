@@ -11,7 +11,7 @@ import Github from '../../assets/github.png'
 import Logo from '../../assets/logo.png'
 import LogoWhite from '../../assets/logoWhite.png'
 import liveIcon from '../../assets/live.svg'
-
+import ReactGA from 'react-ga'
 import ProfessionalBG from '../../assets/ProfessionalBG.svg'
 import Professional1 from '../../assets/Professional1.svg'
 function student() {
@@ -24,6 +24,9 @@ function student() {
    
         window.location.href="https://ace.codeasylums.com/";
         }
+
+        ReactGA.initialize('UA-135901251-1');
+        ReactGA.pageview(window.location.pathname + window.location.search);
 const Main = () => {
    
     return(
