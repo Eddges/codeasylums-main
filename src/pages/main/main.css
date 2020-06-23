@@ -154,6 +154,7 @@
   width: 100px;
   height: 100px;
   top: 20px;
+  opacity: 0;
 }
 
 @-webkit-keyframes sk-scaleout {
@@ -182,8 +183,13 @@
   font-size: 0.8rem;
   font-weight: bold;
   text-align: center;
+  opacity: 1;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+}
+
+.landing-container .landing-left .landing-left-text .event .eventText-shifted {
+  opacity: 0;
 }
 
 .landing-container .landing-left .landing-left-text-shifted {

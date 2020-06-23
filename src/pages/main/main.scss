@@ -124,7 +124,9 @@ $right-shiftedbg : #b5d4ff63;
                     width: 100px;
                     height: 100px;
                     top : 20px;
+                    opacity : 0;
                   }
+
                   
                   @-webkit-keyframes sk-scaleout {
                     0% { -webkit-transform: scale(0) }
@@ -149,7 +151,11 @@ $right-shiftedbg : #b5d4ff63;
                       font-size: 0.8rem;
                       font-weight: bold;
                       text-align: center;
+                      opacity : 1;
                       transition: all 0.5s;
+                  }
+                  .eventText-shifted{
+                      opacity : 0;
                   }
             }
             
