@@ -47,11 +47,11 @@ const Main = () => {
                      {/*<p>Give us and yourself some time and secure your dream job</p>*/}
                     <button className="landing-left-button" onClick={student}>Let’s play & code</button>
                     
-                    <div className="event">
+                    {/* <div className="event">
                         <div className="spinner"></div>
                         <img className="highImage" src={liveIcon} alt="Icon" />
                         <p className="eventText">Asy~namite Hackathon</p>
-                    </div>
+                    </div> */}
                     
                 </div>
                 <img className="Main" src={Hacker} />

@@ -98,6 +98,7 @@
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
+  font-size: 0.8rem;
 }
 
 .landing-container .landing-left .landing-left-text .landing-left-button:hover {
