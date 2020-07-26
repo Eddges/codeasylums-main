@@ -14,6 +14,11 @@ import liveIcon from '../../assets/live.svg'
 import ReactGA from 'react-ga'
 import ProfessionalBG from '../../assets/ProfessionalBG.svg'
 import Professional1 from '../../assets/Professional1.svg'
+import tidbits from '../../assets/tidbits.svg'
+import pc from '../../assets/pc.svg'
+import puzzle from '../../assets/puzzle.svg'
+import smartphone from '../../assets/smartphone.svg'
+
 function student() {
 
    
@@ -93,6 +98,34 @@ const Main = () => {
             <div className="main-bottom-text-right">
                 <p><span>Bootstrap</span> yourself into coding with courses especially tailored for working professionals</p>
             </div>
+
+        <div className="Dock">
+
+            <div className="DockItem">
+                <span className="Title">TidBits</span>
+                <img src={tidbits} alt="tidbits" />
+                
+                <div className="DockItemShadow"></div>
+            </div>
+            <div className="DockItem">
+                <span className="Title">Dashboard</span>
+                <img src={pc} alt="pc" />
+                <div className="Space"></div>
+                <div className="DockItemShadow"></div>
+            </div>
+            <div className="DockItem">
+                <span className="Title">Hackathons</span>
+                <img src={puzzle} alt="puzzle" />
+                <div className="Space"></div>
+                <div className="DockItemShadow"></div>
+            </div>
+            <div className="DockItem">
+                <span className="Title">Services</span>
+                <img src={smartphone} alt="tidbits" />
+                <div className="Space"></div>
+                <div className="DockItemShadow"></div>
+            </div>
+        </div>
     </div>
     
     )

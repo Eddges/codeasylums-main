@@ -33,6 +33,10 @@ $(document).ready(function(){
         $('.main-bottom-text').toggleClass('main-bottom-text-shifted-right')
         $('.main-bottom-text-right').toggleClass('main-bottom-text-right-shifted')
     })
+
+    $('.DockItem').hover(function() {
+        $(this).children('.DockItemShadow').toggleClass('DockItemShadow-shifted')
+    })
 })
 
 
