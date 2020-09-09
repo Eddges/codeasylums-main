@@ -123,7 +123,7 @@ const nav = document.querySelector(".fix");
                 $('.Ansible').addClass('Ansible-shifted')
                 $('.landing-right').addClass('landing-right-shifted')
                 $('.main-bottom-text').addClass('main-bottom-text-shifted-right')
-                $('.main-bottom-text-right').addClass('main-bottom-text-right-shifted')
+                // $('.main-bottom-text-right').addClass('main-bottom-text-right-shifted')
             }
             else{
                 $('.landing-right-text').removeClass('landing-right-text-shifted')

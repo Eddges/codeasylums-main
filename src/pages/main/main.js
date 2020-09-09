@@ -99,7 +99,7 @@ const Main = () => {
                 <p><span>Bootstrap</span> yourself into coding with courses especially tailored for working professionals</p>
             </div>
 
-        <div className="Dock">
+        {/* <div className="Dock">
 
             <div className="DockItem">
                 <span className="Title">TidBits</span>
@@ -125,7 +125,7 @@ const Main = () => {
                 <div className="Space"></div>
                 <div className="DockItemShadow"></div>
             </div>
-        </div>
+        </div> */}
     </div>
     
     )
