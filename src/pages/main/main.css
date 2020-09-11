@@ -107,6 +107,11 @@
   color: #2c036d;
 }
 
+.landing-container .landing-left .landing-left-text .hiring-button {
+  background-color: transparent;
+  color: #4500a8;
+}
+
 .landing-container .landing-left .landing-left-text .event {
   display: -webkit-box;
   display: -ms-flexbox;

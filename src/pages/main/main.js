@@ -19,16 +19,17 @@ import pc from '../../assets/pc.svg'
 import puzzle from '../../assets/puzzle.svg'
 import smartphone from '../../assets/smartphone.svg'
 
-function student() {
-
-   
+    function student() {
     window.location.href="https://maverick.codeasylums.com/";
     }
-    function prof() {
 
-   
+    function hiringBootcamp() {
+        window.location.href="https://www.codeasylums.com/campus_hiring/";
+    }
+
+    function prof() {
         window.location.href="https://ace.codeasylums.com/";
-        }
+    }
 
         ReactGA.initialize('UA-135901251-1');
         ReactGA.pageview(window.location.pathname + window.location.search);
@@ -51,6 +52,7 @@ const Main = () => {
                     {/* <p>have a knack for tech?<br></br>want to crack interviews?</p>*/}
                      {/*<p>Give us and yourself some time and secure your dream job</p>*/}
                     <button className="landing-left-button" onClick={student}>Let’s play & code</button>
+                    <button className="landing-left-button hiring-button" onClick={hiringBootcamp}>Hiring Bootcamp</button>
                     
                     {/* <div className="event">
                         <div className="spinner"></div>
